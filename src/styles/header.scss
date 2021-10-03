@@ -1,0 +1,46 @@
+@import './constants';
+
+.header {
+  margin-top: $navbar-height + $banner-height;
+  //max-width: 1540px;
+  position: relative;
+  width: 100vw;
+  color: $blue;
+
+  .content {
+    margin: 3vw;
+  }
+
+  .header-text {
+    float: left;
+  }
+
+  .subcontent {
+    margin-left: 2.5vw;
+    font-size: 3.5vw;
+  }
+  
+  .title {
+    font-size: 9vw;
+  }
+
+  .header-logo {
+    margin-top: 2vw;
+    margin-left: 5vw;
+    margin-bottom: 3.9vw;
+    background-image: url('../images/logo.svg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 96%;
+    width: 38vw;
+    height: 38vw;
+    float: left;
+  }
+
+  @media only screen and (max-width: 840px) {
+  }
+
+  @media only screen and (max-width: 570px) {
+    margin-top: $navbar-height-mobile + $banner-height;
+  }
+}
