@@ -1,7 +1,7 @@
 import React from 'react';
-import Navbar from './components/Navbar';
+//import Navbar from './components/Navbar';
 import Header from './components/Header';
-import About from './components/About'
+//import About from './components/About'
 
 /**
  * Top level of App to organize components
