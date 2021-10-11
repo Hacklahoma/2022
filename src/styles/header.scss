@@ -1,10 +1,11 @@
 @import './constants';
 
 .header {
-  margin-top: $navbar-height + $banner-height;
+  //margin-top: $navbar-height + $banner-height;
   padding: 3.5vh 0vh 3.5vh 0vh;
   position: relative;
   width: 100vw;
+  max-height: 100vh;
   color: $blue;
 
   .content {
