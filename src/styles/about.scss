@@ -1,0 +1,22 @@
+.about {
+    background-color: #A3BAC3;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    position: relative;
+    align-items: center;
+    vertical-align: middle;
+
+    .box {
+        width: 50vw;
+    }
+    
+    h2 {
+        font-size: 5vw;
+        color: white;
+    }
+
+    p {
+        font-family: Calibri, 'Trebuchet MS', sans-serif
+    }
+}

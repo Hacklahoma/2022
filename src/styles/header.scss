@@ -2,13 +2,13 @@
 
 .header {
   margin-top: $navbar-height + $banner-height;
-  //max-width: 1540px;
+  padding: 3.5vh 0vh 3.5vh 0vh;
   position: relative;
   width: 100vw;
   color: $blue;
 
   .content {
-    margin: 3vw;
+    margin: 5vw;
   }
 
   .header-text {
@@ -26,15 +26,14 @@
 
   .header-logo {
     margin-top: 2vw;
-    margin-left: 5vw;
     margin-bottom: 3.9vw;
     background-image: url('../images/logo.svg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: 96%;
-    width: 38vw;
-    height: 38vw;
-    float: left;
+    width: 35vw;
+    height: 35vw;
+    float: right;
   }
 
   @media only screen and (max-width: 840px) {

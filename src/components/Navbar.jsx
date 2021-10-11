@@ -125,7 +125,7 @@ const NavItems = ({ setOpen }) => {
 
     window.scrollTo({
       behavior: 'smooth',
-      top:      document.getElementById(targetName).offsetTop - 125,
+      top:      document.getElementById(targetName).offsetTop,
     });
   };
 
