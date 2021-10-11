@@ -10,6 +10,8 @@
 
   .content {
     margin: 5vw;
+    display: flex;
+    justify-content: center;
   }
 
   .header-text {
@@ -22,18 +24,19 @@
   }
   
   .title {
-    font-size: 9vw;
+    font-size: 8.5vw;
   }
 
   .header-logo {
     margin-top: 2vw;
     margin-bottom: 3.9vw;
+    margin-left: 2vw;
     background-image: url('../images/logo.svg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: 96%;
-    width: 35vw;
-    height: 35vw;
+    width: 34vw;
+    height: 34vw;
     float: right;
   }
 
