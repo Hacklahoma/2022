@@ -2,8 +2,8 @@
 
 .header {
   //margin-top: $navbar-height + $banner-height;
-  background-color: lightgreen;
-  background-image: url('../images/THECUBE.svg');
+  //background-color: lightgreen;
+  //background-image: url('../images/THECUBE.svg');
   background-blend-mode: darken;
   background-size: 10vw;
   background-position: center; 
@@ -11,7 +11,7 @@
   position: relative;
   width: 100vw;
   max-height: 100vh;
-  height: 100vh;
+  height: 90vh;
   color: $blue;
 
   .content {
