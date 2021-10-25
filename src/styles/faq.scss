@@ -16,8 +16,11 @@
   max-width: $content-max-width;
 
   .row {
-    display: flex;
+    display: table;
     margin-top: 20px;
+    max-width: $content-max-width;
+    width: $content-width;
+    table-layout: fixed; 
   }
 
   .title {
@@ -50,7 +53,6 @@
       width: 16em;
       font-family: 'Bebas Neue';
       color: $blue;
-      margin: 10px;
 
       &.show {
         .expand-icon {
