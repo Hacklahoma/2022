@@ -1,22 +1,31 @@
-.about {
-    background-color: #A3BAC3;
-    width: 100vw;
-    height: 100vh;
-    display: flex;
-    position: relative;
-    align-items: center;
-    vertical-align: middle;
+@import './constants';
 
-    .box {
-        width: 50vw;
-    }
-    
-    h2 {
-        font-size: 5vw;
-        color: white;
+.about {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+
+  .box {
+    background-color: $light-blue;
+    //background-image: url('../images/triangle.svg');
+    background-size: 50%;
+    align-items: center;
+    border-radius: 6px;
+    box-sizing: border-box;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    max-width: $content-max-width;
+    padding: 5.1em 4em 5.1em 4em;
+    text-align: center;
+    width: $content-width;
+
+    h3 {
+      color: #fff;
     }
 
     p {
-        font-family: Calibri, 'Trebuchet MS', sans-serif
+      max-width: 520px;
     }
+  }
 }

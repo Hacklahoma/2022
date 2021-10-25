@@ -1,11 +1,10 @@
 @import './constants';
 // Bebas Neue font
-//@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 
 body {
-  //background: $light;
   color: $black;
-  font-family: 'Bebas Neue', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+  font-family: Calibri, -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
   -webkit-font-smoothing: antialiased;
@@ -14,7 +13,7 @@ body {
   
   &::after {
     content: '';
-    //transition: margin-left 200ms, background 200ms;
+    transition: margin-left 200ms, background 200ms;
   }
 
   &.hamburger-open {
@@ -35,7 +34,22 @@ body {
 }
 
 h1 {
-  font-size: 3em;
+  font-size: 5em;
+  font-family: 'Bebas Neue';
+}
+
+h2 {
+  font-size: 4em;
+  font-family: 'Bebas Neue';
+}
+
+h3 {
+  font-size: 2.5em;
+  font-family: 'Bebas Neue';     
+}
+
+p {
+  font-size: 1.25em;
 }
 
 button {
@@ -90,7 +104,19 @@ a {
 
 @media only screen and (max-width: 840px) {
   h1 {
-    font-size: 2.45em;
+    font-size: 3.3em;
+  }
+
+  h2 {
+    font-size: 2.8em;
+  }
+
+  h3 {
+    font-size: 1.5em;     
+  }
+  
+  p {
+    font-size: 1em;
   }
   
   .subtitle {
@@ -108,11 +134,15 @@ a {
   }
 
   h1 {
-    font-size: 1.6em;
+    font-size: 2.4em;
   }
 
   h2 {
-    font-size: 1em;
+    font-size: 1.8em;
+  }
+
+  h3 {
+    font-size: 1.15em;
   }
 
   p,
