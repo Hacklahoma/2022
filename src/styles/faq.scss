@@ -15,12 +15,9 @@
   width: $content-width;
   max-width: $content-max-width;
 
-  .row {
-    display: table;
+  .column {
     margin-top: 20px;
-    max-width: $content-max-width;
-    width: $content-width;
-    table-layout: fixed; 
+    align-items: center;
   }
 
   .title {
@@ -31,6 +28,8 @@
   .questions {
     box-sizing: border-box;
     width: 100%;
+    display: flex;
+    justify-content: space-between;
 
     a {
       color: $cyan;
@@ -53,6 +52,7 @@
       width: 16em;
       font-family: 'Bebas Neue';
       color: $blue;
+      margin-bottom: 1.5rem;
 
       &.show {
         .expand-icon {
