@@ -84,6 +84,9 @@ a {
 .app {
   align-items: center;
   //background: linear-gradient(#fff8e8, #fff 700px);
+  //backgrozund-image: url('../images/hex.svg');
+  background-repeat: repeat;
+  background-size: 50%;
   display: flex;
   flex-flow: column;
   overflow-x: hidden;
