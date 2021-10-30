@@ -1,6 +1,6 @@
 /* eslint-disable max-len */
 import '../styles/faq.scss';
-import React, { useState } from 'react';
+import React from 'react';
 import AnimateHeight from 'react-animate-height';
 
 /**

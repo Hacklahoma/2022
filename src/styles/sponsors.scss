@@ -1,0 +1,84 @@
+@import './constants';
+
+.sponsors {
+  p { 
+    a {
+      color: $cyan;
+  
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+  }
+
+  h2 {
+    color: $blue;
+  }
+
+  .container {
+    i {
+        font-size: 1.25rem;
+    }
+
+    .tier {
+      align-items: center;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+      justify-content: center;
+      margin-top: 20px;
+
+      &.tier1 {
+        img {
+          max-width: 300px;
+        }
+      }
+
+      &.tier2 {
+        img {
+          max-width: 250px;
+        }
+      }
+
+      &.tier3 {
+        img {
+          max-width: 200px;
+        }
+      }
+
+      img {
+        width: 100%;
+      }
+    }
+  }
+
+  &#partners {
+    .container {
+      justify-content: center;
+    }
+  }
+
+  @media only screen and (max-width: 570px) {
+    .container {
+      .tier {
+        &.tier1 {
+          img {
+            max-width: 250px;
+          }
+        }
+  
+        &.tier2 {
+          img {
+            max-width: 175px;
+          }
+        }
+  
+        &.tier3 {
+          img {
+            max-width: 130px;
+          }
+        }
+      }
+    }
+  }
+}
