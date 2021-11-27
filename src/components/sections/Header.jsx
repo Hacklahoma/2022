@@ -13,6 +13,9 @@ const Header = () => (
           <p>February 11 - 13, 2022</p>
           <p className="subtitle">University Of Oklahoma</p>
         </div>
+        <div className="registration">
+          <i>Registration opens soon!</i>
+        </div>
       </div>
 
       {/* <a href="/" className="register"><p>Register</p></a> */}
