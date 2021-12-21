@@ -14,7 +14,7 @@ const Header = () => (
           <p className="subtitle">University Of Oklahoma</p>
         </div>
         <div className="registration">
-          <i>Registration opens soon!</i>
+          <a href="https://register.hacklahoma.org/">Register Now!</a>
         </div>
       </div>
 

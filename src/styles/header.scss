@@ -39,9 +39,23 @@
 
   .registration {
     height: 45%;
-    color: black;
-    font-size: 1.5rem;
-    padding-top: 10px;
+    padding-top: 30px;
+    box-sizing: border-box;
+    width: 100%;
+    a {
+      transition: background-color 0.25s ease;
+      font-size: 2.25rem;
+      background: $blue;
+      color: #fff;
+      padding: 0.5rem 1.5rem 0.5rem 1.5rem;
+      border-radius: 12px;
+
+      &:active,
+      &:hover,
+      &.active {
+        background: #01a7c2;
+      }
+    }
   }
   
 
@@ -53,6 +67,12 @@
       width: 16em;
       height: 16em;
       float: right;
+    }
+
+    .registration {
+      a {
+        font-size: 1.75rem;
+      }
     }
 
     .subcontent {
@@ -74,6 +94,12 @@
 
     .subcontent {
       font-size: 1.4rem;
+    }
+
+    .registration {
+      a {
+        font-size: 1.25rem;
+      }
     }
   }
 }
