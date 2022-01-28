@@ -29,7 +29,7 @@ const Sponsors = () => (
         <div className="container">
           <div className="tier tier2">
             <a
-              href="http://hackp.ac/mlh-stickermule-hackathons"
+              href="https://mule.to/p2iu"
               target="_blank"
               rel="noopener noreferrer"
             >
