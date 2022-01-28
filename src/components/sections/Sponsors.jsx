@@ -29,7 +29,7 @@ const Sponsors = () => (
         <div className="container">
           <div className="tier tier2">
             <a
-              href="https://www.stickermule.com/unlock?ref_id=0539570701&utm_source=sponsorship&utm_campaign=mlh-sponsorship-2019&utm_medium=referral"
+              href="http://hackp.ac/mlh-stickermule-hackathons"
               target="_blank"
               rel="noopener noreferrer"
             >
