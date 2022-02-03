@@ -19,6 +19,7 @@
     i {
         font-size: 1.25rem;
     }
+    display: flex;
 
     .tier {
       align-items: center;
@@ -27,10 +28,11 @@
       gap: 40px;
       justify-content: center;
       margin-top: 20px;
-
+      
       &.tier1 {
         img {
           max-width: 400px;
+          max-height: 150px;
         }
       }
 

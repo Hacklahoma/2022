@@ -38,16 +38,17 @@
   }
 
   .registration {
+    font-family: 'Bebas Neue';
     height: 45%;
-    padding-top: 30px;
+    padding-top: 40px;
     box-sizing: border-box;
     width: 100%;
     a {
       transition: background-color 0.25s ease;
-      font-size: 2.25rem;
+      font-size: 2.5rem;
       background: $blue;
       color: #fff;
-      padding: 0.5rem 1.5rem 0.5rem 1.5rem;
+      padding: 1rem 2.5rem 1rem 2.5rem;
       border-radius: 12px;
 
       &:active,

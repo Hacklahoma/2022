@@ -11,6 +11,18 @@ const Sponsors = () => (
       <div id="sponsors" className="sponsors">
         <h2>Sponsors</h2>
         <div className="container">
+        <div className="tier tier1">
+            <a
+              href="https://www.paycom.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img
+                alt="Paycom"
+                src='/images/sponsors_and_partners/paycom.png'
+              />
+            </a>
+          </div>
           <div className="tier tier1">
             <a
               href="https://www.bakerhughes.com/"
@@ -23,8 +35,19 @@ const Sponsors = () => (
               />
             </a>
           </div>
+          <div className="tier tier1">
+            <a
+              href="https://www.williams.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img
+                alt="Williams"
+                src='/images/sponsors_and_partners/williams.png'
+              />
+            </a>
+          </div>
         </div>
-
         <h2>Partners</h2>
         <div className="container">
           <div className="tier tier2">
