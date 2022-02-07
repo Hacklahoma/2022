@@ -5,7 +5,6 @@ import Header from './Header';
 import CTA from './CTA';
 import Schedule from './Schedule';
 import Sponsors from '../components/sections/Sponsors';
-import LiveStream from './LiveStream';
 import Prizes from './Prizes';
 
 /**
