@@ -6,7 +6,7 @@ import '../styles/header.scss';
  */
 const Header = () => {
   // Feb 6, 2021 @ 12:00pm CST
-  const startDate = new Date('2021-02-06T18:00:00Z');
+  const startDate = new Date('2022-02-12T18:00:00Z');
   // 24hrs after start date
   const endDate = new Date(startDate.getTime() + 24 * 60 * 60 * 1000);
 
@@ -56,7 +56,7 @@ const Header = () => {
     }
 
     updateCountdown();
-  // eslint-disable-next-line
+    // eslint-disable-next-line
   }, [tick]);
 
   useEffect(() => {
@@ -75,44 +75,37 @@ const Header = () => {
 
   return (
     <div className="header">
-      <div className="wires">
-        <div className="tv">
-          <div className="content">
-            <div className="container">
-              <h1>HACKING {hacking ? 'ENDS' : 'BEGINS'} IN...</h1>
-              <div className="countdown">
-                {!hacking
-                && (
-                  <>
-                    <div className="time">
-                      <h2>{format(countdown.days)}</h2>
-                      <p>days</p>
-                    </div>
-                    <h2 className="separator">:</h2>
-                  </>
-                )}
-                <div className="time">
-                  <h2>{format(countdown.hours)}</h2>
-                  <p>hours</p>
-                </div>
-                <h2 className="separator">:</h2>
-                <div className="time">
-                  <h2>{format(countdown.mins)}</h2>
-                  <p>mins</p>
-                </div>
-                <h2 className="separator">:</h2>
-                <div className="time">
-                  <h2>{format(countdown.secs)}</h2>
-                  <p>secs</p>
-                </div>
-              </div>
+      <div className="content">
+        <div className="container">
+          <h1>HACKING {hacking ? 'ENDS' : 'BEGINS'} IN...</h1>
+          <div className="countdown">
+            {!hacking
+              && (
+                <>
+                  <div className="time">
+                    <h2>{format(countdown.days)}</h2>
+                    <p>days</p>
+                  </div>
+                  <h2 className="separator">:</h2>
+                </>
+              )}
+            <div className="time">
+              <h2>{format(countdown.hours)}</h2>
+              <p>hours</p>
             </div>
-            <div className="timer-and-pin">
-              <div className="timer" />
-              <div className="pin" />
+            <h2 className="separator">:</h2>
+            <div className="time">
+              <h2>{format(countdown.mins)}</h2>
+              <p>mins</p>
+            </div>
+            <h2 className="separator">:</h2>
+            <div className="time">
+              <h2>{format(countdown.secs)}</h2>
+              <p>secs</p>
             </div>
           </div>
         </div>
+        <div className="header-logo">{}</div>
       </div>
     </div>
   );

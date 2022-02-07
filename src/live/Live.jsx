@@ -16,7 +16,7 @@ const Live = () => (
     <Navbar />
     <Header />
     <CTA />
-    <LiveStream />
+    {/*<LiveStream />*/}
     <Schedule />
     <Prizes />
     <Sponsors />

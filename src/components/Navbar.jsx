@@ -135,6 +135,7 @@ const NavItems = ({ setOpen }) => {
       <button onClick={onClickLink}><li>Guides</li></button>
       <button onClick={onClickLink}><li>FAQ</li></button>
       <button onClick={onClickLink}><li>Sponsors</li></button>
+      <button onClick={() => {window.location.href = '/live'}}><li>Live</li></button>
     </ul>
   );
 };

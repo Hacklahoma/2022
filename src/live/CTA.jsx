@@ -6,21 +6,21 @@ import '../styles/about.scss';
  */
 const CTA = () => (
   <div id="cta" className="cta about">
-    <div className="box">
-      <h2>What YOU Need To Do</h2>
+    <div className="cta-box">
+      <h2 className="cta-title">What YOU Need To Do</h2>
       {/* eslint-disable-next-line max-len */}
       <div className="step">
         <h2>1. </h2>
         <p className="instruct discord">
           Join our{' '}
           <a
-            href="https://discord.gg/4dDphSH6"
+            href="https://discord.gg/vTYtFBjw2y"
             target="_blank"
             rel="noopener noreferrer"
           >
-            Discord Server
+            Discord Server!
           </a>{' '}
-          and follow the instructions to check in.
+          The check in process will begin 8:00 AM on February 12TH. More instructions are given in the server!
         </p>
       </div>
       <div className="step">
@@ -37,7 +37,7 @@ const CTA = () => (
           so that you can submit your project and be judged.
         </p>
       </div>
-      <div className="step">
+      {/*<div className="step">
         <h2>3. </h2>
         <p className="instruct">
           Read the{' '}
@@ -46,7 +46,7 @@ const CTA = () => (
           </a>{' '}
           to guide you through Hacklahoma 2021!
         </p>
-      </div>
+      </div>*/}
     </div>
   </div>
 );
