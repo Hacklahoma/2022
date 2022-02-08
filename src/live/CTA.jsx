@@ -28,7 +28,7 @@ const CTA = () => (
         <p className="instruct">
           Register to our{' '}
           <a
-            href="https://hacklahoma21.devpost.com"
+            href="https://hacklahoma22.devpost.com"
             target="_blank"
             rel="noopener noreferrer"
           >
