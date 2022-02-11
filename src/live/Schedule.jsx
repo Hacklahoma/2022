@@ -79,7 +79,7 @@ export const times = [
   },
   {
     name:        'Dinner (In-person)',
-    description: 'Pickleman\' will be served down in the atruim! Alternatives will be provided to anyone with allergies or dietary restrictions.',
+    description: 'Pickleman\'s will be served down in the atruim! Alternatives will be provided to anyone with allergies or dietary restrictions.',
     time:     new Date('2022-02-13T00:00:00Z'),
     duration: 60,
   },
