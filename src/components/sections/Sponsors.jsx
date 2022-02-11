@@ -47,6 +47,18 @@ const Sponsors = () => (
               />
             </a>
           </div>
+          <div className="tier tier1">
+            <a
+              href="https://www.boeing.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img
+                alt="Boeing"
+                src='/images/sponsors_and_partners/boeing.png'
+              />
+            </a>
+          </div>
         </div>
         <h2>Partners</h2>
         <div className="container">
