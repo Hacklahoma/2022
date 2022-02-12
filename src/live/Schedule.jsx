@@ -58,8 +58,14 @@ export const times = [
     duration: 45,
   },
   {
+    name:        'Grouping Activity (Activities Room)',
+    time:     new Date('2022-02-12T19:15:00Z'),
+    duration: 60,
+  },
+  {
     name:        'Workshop provided by Paycom! (Classroom C or Online)',
     time:     new Date('2022-02-12T19:15:00Z'),
+    description: 'Paycom will be talking about an introduction to security programs!',
     duration: 60,
   },
   {
@@ -68,13 +74,30 @@ export const times = [
     duration: 60,
   },
   {
-    name:        'Fatima (Discord)',
+    name:        'Tech Interviews Tips w/ Fatima Taj (Discord)',
     time:     new Date('2022-02-12T20:45:00Z'),
     duration: 60,
   },
   {
     name:        'Workshop provided by Baker Hughes! (Classroom A or Online)',
     time:     new Date('2022-02-12T22:00:00Z'),
+    description: 'Ever wanted to expand your knowledge on how to use the Linux terminal? Well Baker Hughes will be teaching a workshop to help expand your knowledeg and skills on it!',
+    duration: 90,
+  },
+  {
+    name:        'Escape Room (Activities Room)',
+    time:     new Date('2022-02-12T22:00:00Z'),
+    duration: 90,
+  },
+  {
+    name:        'Video Game Music Quiz (Activities Room)',
+    description: 'Come to the Forum Room located at DEH 220 to participate in a video game music quiz!',
+    time:     new Date('2022-02-13T01:00:00Z'),
+    duration: 60,
+  },
+  {
+    name:        'C3 Cyber Security Workshop! (Classroom B or Online)',
+    time:     new Date('2022-02-13T01:00:00Z'),
     duration: 60,
   },
   {
@@ -86,15 +109,21 @@ export const times = [
   {
     name:        'Workshop provided by Crimson Robotics (Classroom C or Online)',
     time:     new Date('2022-02-13T01:00:00Z'),
-    duration: 60,
+    duration: 90,
   },
   {
-    name:        'Hacklahoma CTF/Bob Ross (Discord)',
+    name:        'MLH Bob Ross (Discord)',
+    description: 'In this activity you will be following along a Bob Ross video while using MS paint!',
     time:     new Date('2022-02-13T01:00:00Z'),
     duration: 60,
   },
   {
-    name:        'Robotics Workshop given by Noah Zemlin (Classroom A or Online)',
+    name:        'Digital Escape Room (Discord)',
+    time:     new Date('2022-02-13T01:00:00Z'),
+    duration: 60,
+  },
+  {
+    name:        'Intro to Game Development using Godot by the Game Developer\'s Accociation',
     time:     new Date('2022-02-13T03:00:00Z'),
     duration: 60,
   },
