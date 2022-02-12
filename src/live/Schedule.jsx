@@ -54,7 +54,7 @@ export const times = [
   {
     name:     'Lunch (In-person)',
     description: 'Slim Chickens will be served in the atrium! Alternatives will be provided to anyone with allergies or dietary restrictions.',
-    time:     new Date('2022-02-12T18:30:00Z'),
+    time:     new Date('2022-02-12T18:15:00Z'),
     duration: 45,
   },
   {
@@ -92,18 +92,18 @@ export const times = [
   {
     name:        'Video Game Music Quiz (Activities Room)',
     description: 'Come to the Forum Room located at DEH 220 to participate in a video game music quiz!',
-    time:     new Date('2022-02-13T01:00:00Z'),
+    time:     new Date('2022-02-12T23:30:00Z'),
     duration: 60,
   },
   {
     name:        'C3 Cyber Security Workshop! (Classroom B or Online)',
-    time:     new Date('2022-02-13T01:00:00Z'),
+    time:     new Date('2022-02-12T23:30:00Z'),
     duration: 60,
   },
   {
     name:        'Dinner (In-person)',
     description: 'Pickleman\'s will be served down in the atruim! Alternatives will be provided to anyone with allergies or dietary restrictions.',
-    time:     new Date('2022-02-13T00:00:00Z'),
+    time:     new Date('2022-02-12T23:45:00Z'),
     duration: 60,
   },
   {
@@ -119,7 +119,7 @@ export const times = [
   },
   {
     name:        'Digital Escape Room (Discord)',
-    time:     new Date('2022-02-13T01:00:00Z'),
+    time:     new Date('2022-02-13T01:30:00Z'),
     duration: 60,
   },
   {
@@ -129,13 +129,13 @@ export const times = [
   },
   {
     name:        'Video Game Kahoot (Activities Room)',
-    time:     new Date('2022-02-13T05:00:00Z'),
+    time:     new Date('2022-02-13T04:30:00Z'),
     duration: 60,
   },
   {
     name:        'Late night Snack (In-person)',
-    description: 'For anyone still awake hacking at 2 AM, Papa Johns will be served in the atrium as a late night snack to keep you going!',
-    time:     new Date('2022-02-13T08:00:00Z'),
+    description: 'For anyone still awake hacking at midnight, Papa Johns will be served in the atrium as a late night snack to keep you going!',
+    time:     new Date('2022-02-13T6:15:00Z'),
     duration: 60,
   },
   {
