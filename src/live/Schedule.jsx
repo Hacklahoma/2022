@@ -59,12 +59,12 @@ export const times = [
   },
   {
     name:        'Grouping Activity (Activities Room)',
-    time:     new Date('2022-02-12T19:15:00Z'),
+    time:     new Date('2022-02-12T18:15:00Z'),
     duration: 60,
   },
   {
     name:        'Workshop provided by Paycom! (Classroom C or Online)',
-    time:     new Date('2022-02-12T19:15:00Z'),
+    time:     new Date('2022-02-12T19:00:00Z'),
     description: 'Paycom will be talking about an introduction to security programs!',
     duration: 60,
   },
