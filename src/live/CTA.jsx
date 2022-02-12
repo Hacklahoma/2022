@@ -42,7 +42,7 @@ const CTA = () => (
         <p className="instruct">
           Check out the Hacklahoma 2022 {' '}
           <a
-            href="/Hacker_Day_Of_Guide_2022.pdf"
+            href="https://drive.google.com/file/d/18Szz_yibWhgVfbbveXos2gxCROwmh3f6/view?usp=sharing"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -50,33 +50,21 @@ const CTA = () => (
           </a>{' '}
           so that you are able to enjoy your experience at our yearly Hackathon!
         </p>
-        <div className="step">
-          <h2>3. </h2>
+      </div>
+      <div className="step">
+          <h2>4. </h2>
           <p className="instruct">
             Check out the Hacklahoma 2022 {' '}
             <a
-              href="/Hacklahoma_Conduct_Policy.pdf"
+              href="https://drive.google.com/file/d/1YAV7J6XKOtse380fXDgFnC1D-F8w1meV/view?usp=sharing"
               target="_blank"
               rel="noopener noreferrer"
             >
-              Code of Conduct and Safety
+              Code of Conduct
             </a>{' '}
             .
           </p>
         </div>
-
-
-        {/*<div className="step">
-        <h2>3. </h2>
-        <p className="instruct">
-          Read the{' '}
-          <a href="/hacker_handbook.pdf" target="_blank" rel="noopener noreferrer">
-            Hacker Handbook
-          </a>{' '}
-          to guide you through Hacklahoma 2021!
-        </p>
-      </div>*/}
-      </div>
     </div>
   </div>
 );
