@@ -133,12 +133,6 @@ export const times = [
     duration: 60,
   },
   {
-    name:        'Late night Snack (In-person)',
-    description: 'For anyone still awake hacking at midnight, Papa Johns will be served in the atrium as a late night snack to keep you going!',
-    time:     new Date('2022-02-13T6:15:00Z'),
-    duration: 60,
-  },
-  {
     name:        'Breakfast (In-person)',
     description: 'Waffles will be served in the Attrium. Alternatives will be provided to anyone with allergies or dietary restrictions.',
     time:     new Date('2022-02-13T16:00:00Z'),
